@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+</head>
+
+<body>
+
+    <container>
+
+        <h1 class="textcenter margintop bottomline">
+            Just Random Pictures<buttonn class="darkmodetogglebutton" onclick="toggledarkmode()">Dark/Light mode
+            </buttonn>
+        </h1>
+        <imagegrid class="margintop">
+            <img src="image/image01.jpg" alt="Tree in pot" class="ingrid tallimage">
+            <img src="image/image02.jpg" alt="Chemical" class="ingrid">
+            <img src="image/image03.jpg" alt="Macbook" class="ingrid">
+            <img src="image/image04.jpg" alt="Glasses" class="ingrid tallimage">
+            <img src="image/image05.jpg" alt="Cactus" class="ingrid">
+            <img src="image/image06.jpg" alt="Small tree" class="ingrid tallimage">
+            <img src="image/image07.jpg" alt="Blackboard" class="ingrid">
+            <img src="image/image08.jpg" alt="Wreath" with light" class="ingrid sideimage">
+            <img src="image/image09.jpg" alt="Clock tower" class="ingrid tallimage">
+            <img src="image/image10.jpg" alt="Drawing" class="ingrid tallimage">
+            <img src="image/image11.jpg" alt="Glasses" class="ingrid bigimage">
+            <img src="image/image28.jpg" alt="Gems" class="ingrid">
+            <img src="image/image12.jpg" alt="Floating boat" class="ingrid tallimage">
+            <img src="image/image13.jpg" alt="Cloud" class="ingrid tallimage">
+            <img src="image/image14.jpg" alt="Playground" class="ingrid">
+            <img src="image/image15.jpg" alt="Pixel thing" class="ingrid tallimage">
+            <img src="image/image22.jpg" alt="Rackoon" class="ingrid">
+            <img src="image/image16.jpg" alt="Milk" class="ingrid tallimage">
+            <img src="image/image37.jpg" alt="Forest" class="ingrid">
+            <img src="image/image42.jpg" alt="prism" class="ingrid">
+            <img src="image/image61.jpg" alt="pencil" class="ingrid">
+        </imagegrid>
+
+    </container>
+    <bg_model id="bg_model" onclick="close_model()"></bg_model>
+    <model id="show_model"  onclick="close_model()">
+        <img src=" " id="show_img"></img>
+        <div id="caption"></div>
+        <p style="opacity: 0.4; margin-left: 16px;">click anywhere to close</p>
+    </model>
+    <script src="script.js"></script>
+</body>
+
+</html>
